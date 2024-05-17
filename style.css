@@ -1,0 +1,24 @@
+.link-unavailable::after {
+  content: "~";
+  color: red;
+}
+
+.ta-available::after {
+  content: "Available";
+  color: green;
+}
+
+.ta-unavailable::after {
+  content: "Not Available";
+  color: red;
+}
+
+.ta-roomFull::after {
+  content: "Room Full";
+  color: Red;
+}
+
+.ta-roomNotFull::after {
+  content: "Room Not Full";
+  color: Green;
+}
