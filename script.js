@@ -51,6 +51,12 @@ function buildTable (taData) {
 const mentorTable = document.getElementById("mentors-table");
 
 getRealtimeData().then((taData) => {
-  console.log(taData);
   mentorTable.innerHTML = buildTable(taData);
 })
+
+console.log("Hi! Let's get coding!");
+console.group("pointers for using Mentor Rooms");
+console.log("Please ask your question upon entering the room.");
+console.log("The mentor will finish working with those ahead of you in line before answering your question.");
+console.log("The mentor may work with more than one person at the same time.");
+console.groupEnd();
